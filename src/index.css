@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @font-face {
+	font-family: "Newerwinter";
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+  src: url("./fonts/newerwinter_font.woff2") format("woff2"),
+  url("./fonts/newerwinter_font.woff") format("woff");
+} */
+
+/*
+mobile - max-width: 425px
+tablet - (min-width: 425px) and (max-width: 768px)
+desctop - min-width: 1400px
+*/
+
+html {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Arial; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  font-size: large;
+  color: white;
+  background-color: black;
+}
+
+@media (min-width: 1400px) {
+  body {
+    max-width: 1440px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
 }
