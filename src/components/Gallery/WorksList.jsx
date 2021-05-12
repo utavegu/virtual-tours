@@ -15,7 +15,7 @@ function WorksList(props) {
               <source media="(min-width: 1400px)" srcSet="http://placehold.it/1600x800" />
               <source media="(min-width: 768px)" srcSet="http://placehold.it/1400x700" />
               <source media="(min-width: 425px) and (max-width: 768px)" srcSet="http://placehold.it/760x400" />
-              <img src="http://placehold.it/420" alt="Фото их стрелковых наград"/>
+              <img src="http://placehold.it/420" alt="Название работы"/>
             </picture>
           </a>
           <p>#тэг1 #тэг2 #тэг3</p>
@@ -28,7 +28,7 @@ function WorksList(props) {
               <source media="(min-width: 1400px)" srcSet="http://placehold.it/1600x800" />
               <source media="(min-width: 768px)" srcSet="http://placehold.it/1400x700" />
               <source media="(min-width: 425px) and (max-width: 768px)" srcSet="http://placehold.it/760x400" />
-              <img src="http://placehold.it/420" alt="Фото их стрелковых наград"/>
+              <img src="http://placehold.it/420" alt="Название работы"/>
             </picture>
           </a>
           <p>#тэг1 #тэг2 #тэг3</p>
@@ -41,7 +41,7 @@ function WorksList(props) {
               <source media="(min-width: 1400px)" srcSet="http://placehold.it/1600x800" />
               <source media="(min-width: 768px)" srcSet="http://placehold.it/1400x700" />
               <source media="(min-width: 425px) and (max-width: 768px)" srcSet="http://placehold.it/760x400" />
-              <img src="http://placehold.it/420" alt="Фото их стрелковых наград"/>
+              <img src="http://placehold.it/420" alt="Название работы"/>
             </picture>
           </a>
           <p>#тэг1 #тэг2 #тэг3</p>
