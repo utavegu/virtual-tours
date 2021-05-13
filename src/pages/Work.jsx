@@ -6,6 +6,7 @@ export default function Work() {
     <div>
       <h1>Название работы</h1>
 
+      {/* КОМПОНЕНТ "ВИРТУАЛЬНЫЙ ТУР" */}
       <div className={s.responsive_container}>
         <iframe
           width="900"
@@ -13,6 +14,7 @@ export default function Work() {
           src="http://test.photo-largo.lclients.ru/dudergof_master_2019_01_24/"
           title="Название работы"
           frameBorder="0"
+          allowFullScreen
         >
           Обновите ваш браузер!
         </iframe>
@@ -20,6 +22,7 @@ export default function Work() {
 
       <p>Описание --- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!</p>
 
+      {/* КОМПОНЕНТ "ВИДЕО" */}
       <div className={s.responsive_container}>
         <iframe
           width="560"
@@ -37,6 +40,7 @@ export default function Work() {
 
       <p>Описание</p>
 
+      {/* КОМПОНЕНТ "ГАЛЕРЕЯ" */}
       <section>Галерея
         <ul>
           <li>

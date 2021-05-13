@@ -3,6 +3,7 @@ import Tags from '../components/Gallery/Tags';
 import Search from '../components/Gallery/Search';
 import WorksList from '../components/Gallery/WorksList';
 import s from './Gallery.module.css';
+import projects from '../data/projects.json';
 
 export default function Gallery() {
   return (
@@ -15,7 +16,7 @@ export default function Gallery() {
       <main>
         <Tags />
         <Search />
-        <WorksList />
+        <WorksList projects={projects} />
       </main>
     </>
   )

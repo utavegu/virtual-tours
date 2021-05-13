@@ -3,8 +3,8 @@ import Work from "./pages/Work";
 
 function Portfolio() {
   return (
-    // <Gallery />
-    <Work />
+    <Gallery />
+    // <Work />
   );
 }
 

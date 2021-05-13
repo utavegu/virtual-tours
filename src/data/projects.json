@@ -1,0 +1,314 @@
+[
+  {
+    "id": 0,
+    "name": "'Новые Горизонты' с Дмитрием Крыловым",
+    "alias": "krylov",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "СЕСТРОРЕЦКОЕ БОЛОТО",
+        "url": "http://test.photo-largo.lclients.ru/boloto_master_2018_04_26/" 
+      },
+      {
+        "name": "ДУДЕРГОФСКИЕ ВЫСОТЫ",
+        "url": "http://test.photo-largo.lclients.ru/dudergof_master_2019_01_24/" 
+      },
+      {
+        "name": "КОМАРОВСКИЙ БЕРЕГ",
+        "url": "http://test.photo-largo.lclients.ru/komarovo_master_2019_01_24/" 
+      },
+      {
+        "name": "ПРИРОДНЫЕ КОМПЛЕКСЫ ЗАКАЗНИКА",
+        "url": "http://test.photo-largo.lclients.ru/kotlin_master_2018_12_14/" 
+      },
+      {
+        "name": "БЕРЕЗОВАЯ АЛЛЕЯ",
+        "url": "http://test.photo-largo.lclients.ru/sergievka_master_2019_01_23/" 
+      },
+      {
+        "name": "УЧАСТОК БОЛОТА",
+        "url": "http://test.photo-largo.lclients.ru/yuntolovskiy_master_2018_12_17/" 
+      }
+    ],
+    "videos": [
+      {
+        "name": "'Новые Горизонты' с Дмитрием Крыловым в 360 VR",
+        "url": "https://www.youtube.com/watch?v=sA9Nazqgqj8",
+        "embeddedUrl": "https://www.youtube.com/embed/sA9Nazqgqj8"
+      },
+      {
+        "name": "Трейлер 'Новые горизонты' с Дмитрием Крыловым!",
+        "url": "https://www.youtube.com/watch?v=zF8x6NKksto",
+        "embeddedUrl": "https://www.youtube.com/embed/zF8x6NKksto"
+      }
+    ],
+    "photos": [],
+    "tags": ["природа", "2020"]
+  },
+
+  {
+    "id": 1,
+    "name": "Мэйл груп",
+    "alias": "mail",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "Прогулка по зданию мэйла?",
+        "url": "http://test.photo-largo.lclients.ru/mailru/"
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["корпорации", "2021"]
+  },
+
+  {
+    "id": 2,
+    "name": "ЯНДЕКС-ТАКСИ",
+    "alias": "yandex",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Хз что там, надо посмотреть",
+        "url": "https://www.youtube.com/watch?v=-4YRSZPbUCU&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=20",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["корпорации", "2021"]
+  },
+
+  {
+    "id": 3,
+    "name": "НОРИЛЬСКИЙ НИКЕЛЬ",
+    "alias": "nickel",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Крутая прогулка по шахте",
+        "url": "https://www.youtube.com/watch?v=tcmKRRaOyJg&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=10",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["производство", "2020"]
+  },
+
+  {
+    "id": 4,
+    "name": "ДЯГИЛЕВ",
+    "alias": "dyagilev",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "Какой-то ресторан походу",
+        "url": "http://test.photo-largo.lclients.ru/dyagilev_final_music/" 
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["досуг", "2019"]
+  },
+
+  {
+    "id": 5,
+    "name": "ФЕРТОИНГ",
+    "alias": "fertoing",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "База подводных катеров -_-",
+        "url": "http://test.photo-largo.lclients.ru/fertoing_main/" 
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["производство", "2020"]
+  },
+
+  {
+    "id": 6,
+    "name": "THE BOOK",
+    "alias": "book",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "Звучит как название кальянной",
+        "url": "http://test.photo-largo.lclients.ru/book_v4/ " 
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["досуг", "2019"]
+  },
+
+  {
+    "id": 7,
+    "name": "КОТТЕДЖ",
+    "alias": "cottage",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "Загородная вилла какая-то",
+        "url": "http://test.photo-largo.lclients.ru/cottage/" 
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["природа", "досуг", "2018"]
+  },
+
+  {
+    "id": 8,
+    "name": "G8",
+    "alias": "g8",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "Даже не помню что это",
+        "url": "http://test.photo-largo.lclients.ru/g8/" 
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["производство", "2019"]
+  },
+
+  {
+    "id": 9,
+    "name": "ЛАЙВ-ПАНО",
+    "alias": "livepano",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "Какой-то фестиваль...",
+        "url": "http://test.photo-largo.lclients.ru/livepano/" 
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["вечеринка", "2018"]
+  },
+
+  {
+    "id": 10,
+    "name": "МОЛОДЁЖНАЯ ТУСЭ",
+    "alias": "party",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Пати эвребади",
+        "url": "https://www.youtube.com/watch?v=v0MuGQpgrTg&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=2",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["вечеринка", "2018"]
+  },
+
+  {
+    "id": 11,
+    "name": "ПОЛИПЛАСТИКА",
+    "alias": "polyplastics",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Интересно, что это?",
+        "url": "https://www.youtube.com/watch?v=ISKfLKahvzs&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=16",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["производство", "2019"]
+  },
+
+  {
+    "id": 12,
+    "name": "LYFT",
+    "alias": "lyft",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Вроде, не грузовой",
+        "url": "https://www.youtube.com/watch?v=DK7CEUdoO00&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=17",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["досуг", "2019"]
+  },
+
+  {
+    "id": 13,
+    "name": "LAKE BAIKAL",
+    "alias": "baikal",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Или море, всё-таки?",
+        "url": "https://www.youtube.com/watch?v=a2ckMopRlII&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=21",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["природа", "2020"]
+  },
+
+  {
+    "id": 14,
+    "name": "ВЫПУСКНОЙ-2016 в Парке Горького",
+    "alias": "outlet",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Интересно, кто заказчик?",
+        "url": "https://www.youtube.com/watch?v=D0wloKuYYDw&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=32",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["вечеринка", "2018"]
+  },
+
+  {
+    "id": 15,
+    "name": "День Молодежи 2016 в Парке Горького и МУЗЕОНЕ 360°",
+    "alias": "youth",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Музеон... чото знакомое",
+        "url": "https://www.youtube.com/watch?v=aA03E0dqkZ4&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=33",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["вечеринка", "2018"]
+  },
+
+  {
+    "id": 16,
+    "name": "Прыжок с парашютом",
+    "alias": "parachute",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [],
+    "videos": [
+      {
+        "name": "Но рекламировали-то что-то другое, да?",
+        "url": "https://www.youtube.com/watch?v=NnZaPcmEnNY&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=34",
+        "embeddedUrl": ""
+      }
+    ],
+    "photos": [],
+    "tags": ["досуг", "2018"]
+  }
+
+]
