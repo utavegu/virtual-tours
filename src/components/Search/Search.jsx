@@ -25,7 +25,8 @@ function Search({queryString, setSearchQuery}) {
 }
 
 Search.propTypes = {
-
+  queryString: PropTypes.string,
+  setSearchQuery: PropTypes.func,
 }
 
 export default Search

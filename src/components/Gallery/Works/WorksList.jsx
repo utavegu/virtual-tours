@@ -35,7 +35,7 @@ function WorksList({projects}) {
 }
 
 WorksList.propTypes = {
-
+  projects: PropTypes.arrayOf(PropTypes.object),
 }
 
 export default WorksList

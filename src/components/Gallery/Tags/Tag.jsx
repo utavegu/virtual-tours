@@ -20,7 +20,9 @@ function Tag({tag, onChange: handleChange, state}) {
 }
 
 Tag.propTypes = {
-
+  tag: PropTypes.string,
+  onChange: PropTypes.func,
+  state: PropTypes.object,
 }
 
 export default Tag

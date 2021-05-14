@@ -22,7 +22,7 @@ function WorkItem({project}) {
 }
 
 WorkItem.propTypes = {
-
+  project: PropTypes.object,
 }
 
 export default WorkItem

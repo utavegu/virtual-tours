@@ -27,7 +27,8 @@ function TagsList({tags, onGetTags: handleGetTags}) {
 }
 
 TagsList.propTypes = {
-
+  tags: PropTypes.arrayOf(PropTypes.string),
+  onGetTags: PropTypes.func,
 }
 
 export default TagsList
