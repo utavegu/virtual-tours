@@ -1,10 +1,11 @@
 .tags_cloud {
   list-style: none;
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid #fff;
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;
-  border: 3px solid #fff;
-  padding: 3px;
   justify-content: center;
 }
 

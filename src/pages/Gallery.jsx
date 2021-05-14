@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import TagsList from '../components/Gallery/TagsList';
-import Search from '../components/Gallery/Search';
-import WorksList from '../components/Gallery/WorksList';
+import TagsList from '../components/Gallery/Tags/TagsList';
+import Search from '../components/Search/Search';
+import WorksList from '../components/Gallery/Works/WorksList';
 import s from './Gallery.module.css';
 import projectsData from '../data/projects.json';
 
 export default function Gallery() {
   const [projects, setProjects] = useState(projectsData);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const getUniqueTags = () => {
     const allTags = new Set();
@@ -27,6 +28,10 @@ export default function Gallery() {
     setProjects(filtredProjects);
   }
 
+  const foundProjects = projects
+    .slice()
+    .filter(item => item.name.toLowerCase().indexOf(searchQuery.toLowerCase().trim()) > -1)
+    
   return (
     <>
       <header className={s.main_header}>
@@ -36,8 +41,8 @@ export default function Gallery() {
       </header>
       <main>
         <TagsList tags={getUniqueTags()} onGetTags={handleGetTags} />
-        <Search />
-        <WorksList projects={projects} />
+        <Search queryString={searchQuery} setSearchQuery={setSearchQuery} />
+        <WorksList projects={foundProjects} />
       </main>
     </>
   )

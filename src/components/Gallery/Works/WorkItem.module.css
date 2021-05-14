@@ -2,6 +2,9 @@
   margin: 0 auto;
   margin-bottom: 15px;
   position: relative;
+
+  HEIGHT: 150px; /*УДАЛИТЬ!!!!!*/
+  BORDER: 1px solid red; /*УДАЛИТЬ!!!!!*/
 }
 
 .work_item h3 {
