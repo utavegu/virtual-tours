@@ -1,0 +1,16 @@
+.tag_item span {
+  padding: 3px;
+  cursor: pointer;
+}
+
+.tag_item span:hover {
+  color: lightgray
+}
+
+.tag_item input:checked + span {
+  color: red;
+}
+
+.tag_item input:checked + span:hover {
+  color: darkred;
+}

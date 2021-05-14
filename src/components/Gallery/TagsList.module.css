@@ -1,0 +1,16 @@
+.tags_cloud {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  border: 3px solid #fff;
+  padding: 3px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  /* .tags_cloud {
+    width: 50%;
+    margin: 0 auto;
+  } */
+}
