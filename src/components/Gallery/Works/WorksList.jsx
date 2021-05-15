@@ -13,8 +13,6 @@ function WorksList({projects}) {
     }
   }, [displayedProjects])
 
-  const shownProjects = projects.slice(0, displayedProjects);
-
   const scrollHandler = ({target}) => {
     if (
       target.documentElement.scrollHeight - (target.documentElement.scrollTop + window.innerHeight) < 100
@@ -28,7 +26,10 @@ function WorksList({projects}) {
     <section className={s.works}>
       <h2 className="visually-hidden">Галерея</h2>
       <ul className={s.work_list}>
-        {shownProjects.map(project => <WorkItem project={project} key={project.id} />)}
+        {projects
+          .slice(0, displayedProjects)
+          .map(project => <WorkItem project={project} key={project.id} />)
+        }
       </ul>
     </section>
   )
