@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import s from './Work.module.css';
 import projectsData from '../data/projects.json';
@@ -19,13 +19,71 @@ export default function Work({ match }) {
     findById(projects, Number(match.params.id)) :
     findByAlias(projects, match.params.alias);
 
+  const initialContent = project.tours.length > 0 ? "tours" : "videos"
+
+  const [displayedContent, setDisplayedContent] = useState(initialContent);
+
+  const handleChangeInput = ({target}) => {
+    setDisplayedContent(target.id);
+  }
+
+  const changeDisplay = () => {
+    switch (displayedContent) {
+      case "tours":
+        return (<VirtualTours tours={project.tours} />);
+      case "videos":
+        return (<Videos videos={project.videos} />);
+      default:
+        console.log("Ошибка входных данных!");
+    }
+  }
+
   return (
     <div>
       <h1>{project.name}</h1>
+
       <Link to={`/`}>Вернуться в галерею</Link>
+
       <p>{project.description}</p>
-      {project.tours.length > 0 && <VirtualTours tours={project.tours} />}
-      {project.videos.length > 0 && <Videos videos={project.videos} />}
+
+      <ul>
+        {project.tours.length > 0 && <li>
+          <input
+            type="radio"
+            name="displayedContent"
+            id="tours"
+            checked={displayedContent === "tours"}
+            onChange={handleChangeInput}
+          />
+          <label htmlFor="tours">Виртуальные туры</label>
+        </li>}
+        {project.videos.length > 0 && <li>
+          <input
+            type="radio"
+            name="displayedContent"
+            id="videos"
+            checked={displayedContent === "videos"}
+            onChange={handleChangeInput}
+          />
+          <label htmlFor="videos">3D-видео</label>
+        </li>}
+        {/*
+        ГАЛЕРЕЯ ФОТО
+        {project.videos.length > 0 && <li>
+          <input
+            type="radio"
+            name="displayedContent"
+            id="videos"
+            checked={displayedContent === "videos"}
+            onChange={handleChangeInput}
+          />
+          <label htmlFor="videos">3D-видео</label>
+        </li>}
+        */}
+
+      </ul>
+      
+      {changeDisplay()}
       
     </div>
   )
