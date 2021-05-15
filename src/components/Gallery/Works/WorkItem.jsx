@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import s from './WorkItem.module.css';
 
 function WorkItem({project}) {
   return (
     <li className={s.work_item}>
-      <a href="#">
+      <Link to={`/${project.alias}`}>
+      {/* <a href="#"> */}
         <h3>{project.name}</h3>
         {/*  
         <picture>
@@ -15,7 +17,8 @@ function WorkItem({project}) {
           <img src="http://placehold.it/420" alt="Название работы"/>
         </picture>
         */}
-      </a>
+      {/* </a> */}
+      </Link>
       <p>{project.tags.map(tag => `#${tag} `)}</p>
     </li>
   )

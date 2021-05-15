@@ -33,38 +33,15 @@
     "videos": [
       {
         "name": "'Новые Горизонты' с Дмитрием Крыловым в 360 VR",
-        "url": "https://www.youtube.com/watch?v=sA9Nazqgqj8",
-        "embeddedUrl": "https://www.youtube.com/embed/sA9Nazqgqj8"
+        "id": "sA9Nazqgqj8"
       },
       {
         "name": "Трейлер 'Новые горизонты' с Дмитрием Крыловым!",
-        "url": "https://www.youtube.com/watch?v=zF8x6NKksto",
-        "embeddedUrl": "https://www.youtube.com/embed/zF8x6NKksto"
+        "id": "zF8x6NKksto"
       }
     ],
     "photos": [],
     "tags": ["природа", "2020"],
-    "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
-  },
-
-  {
-    "id": 1,
-    "name": "Мэйл груп",
-    "alias": "mail",
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
-    "tours": [
-      {
-        "name": "Прогулка по зданию мэйла?",
-        "url": "http://test.photo-largo.lclients.ru/mailru/"
-      }
-    ],
-    "videos": [],
-    "photos": [],
-    "tags": ["корпорации", "2021"],
     "preview": {
       "mobile": "",
       "tablet": "",
@@ -81,8 +58,7 @@
     "videos": [
       {
         "name": "Хз что там, надо посмотреть",
-        "url": "https://www.youtube.com/watch?v=-4YRSZPbUCU&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=20",
-        "embeddedUrl": ""
+        "id": "-4YRSZPbUCU"
       }
     ],
     "photos": [],
@@ -103,8 +79,7 @@
     "videos": [
       {
         "name": "Крутая прогулка по шахте",
-        "url": "https://www.youtube.com/watch?v=tcmKRRaOyJg&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=10",
-        "embeddedUrl": ""
+        "id": "tcmKRRaOyJg"
       }
     ],
     "photos": [],
@@ -203,7 +178,7 @@
   {
     "id": 8,
     "name": "G8",
-    "alias": "g8",
+    "alias": "geight",
     "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
     "tours": [
       {
@@ -213,7 +188,7 @@
     ],
     "videos": [],
     "photos": [],
-    "tags": ["производство", "2019"],
+    "tags": ["производство", "2014"],
     "preview": {
       "mobile": "",
       "tablet": "",
@@ -251,8 +226,7 @@
     "videos": [
       {
         "name": "Пати эвребади",
-        "url": "https://www.youtube.com/watch?v=v0MuGQpgrTg&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=2",
-        "embeddedUrl": ""
+        "id": "v0MuGQpgrTg"
       }
     ],
     "photos": [],
@@ -273,8 +247,7 @@
     "videos": [
       {
         "name": "Интересно, что это?",
-        "url": "https://www.youtube.com/watch?v=ISKfLKahvzs&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=16",
-        "embeddedUrl": ""
+        "id": "ISKfLKahvzs"
       }
     ],
     "photos": [],
@@ -295,8 +268,7 @@
     "videos": [
       {
         "name": "Вроде, не грузовой",
-        "url": "https://www.youtube.com/watch?v=DK7CEUdoO00&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=17",
-        "embeddedUrl": ""
+        "id": "DK7CEUdoO00"
       }
     ],
     "photos": [],
@@ -317,8 +289,7 @@
     "videos": [
       {
         "name": "Или море, всё-таки?",
-        "url": "https://www.youtube.com/watch?v=a2ckMopRlII&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=21",
-        "embeddedUrl": ""
+        "id": "a2ckMopRlII"
       }
     ],
     "photos": [],
@@ -339,8 +310,7 @@
     "videos": [
       {
         "name": "Интересно, кто заказчик?",
-        "url": "https://www.youtube.com/watch?v=D0wloKuYYDw&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=32",
-        "embeddedUrl": ""
+        "id": "D0wloKuYYDw"
       }
     ],
     "photos": [],
@@ -361,8 +331,7 @@
     "videos": [
       {
         "name": "Музеон... чото знакомое",
-        "url": "https://www.youtube.com/watch?v=aA03E0dqkZ4&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=33",
-        "embeddedUrl": ""
+        "id": "aA03E0dqkZ4"
       }
     ],
     "photos": [],
@@ -383,8 +352,7 @@
     "videos": [
       {
         "name": "Но рекламировали-то что-то другое, да?",
-        "url": "https://www.youtube.com/watch?v=NnZaPcmEnNY&list=PLcicZ1APr3ziwgUmveP96reDtn7JPtqfF&index=34",
-        "embeddedUrl": ""
+        "id": "NnZaPcmEnNY"
       }
     ],
     "photos": [],

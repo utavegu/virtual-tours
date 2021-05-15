@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TagsList from '../components/Gallery/Tags/TagsList';
-import Search from '../components/Search/Search';
+import Search from '../components/Gallery/Search/Search';
 import WorksList from '../components/Gallery/Works/WorksList';
 import s from './Gallery.module.css';
 import projectsData from '../data/projects.json';
