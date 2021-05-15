@@ -8,13 +8,13 @@ function VirtualTours({tours}) {
 
   return (
     <>
-      {displayedTours !== tours.length
-      &&
-      <button onClick={() => {setDisplayedTours(displayedTours + 1)}}>Показать ещё тур...</button>}
       {tours
         .slice(0, displayedTours)
         .map(tour => <Tour tour={tour} key={tour.name} />)
       }
+      {displayedTours !== tours.length
+      &&
+      <button className="btn" onClick={() => {setDisplayedTours(displayedTours + 1)}}>Показать ещё тур...</button>}
     </>
   )
 }

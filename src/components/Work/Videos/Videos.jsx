@@ -11,13 +11,13 @@ function Videos({videos}) {
   return (
     <>
       <span>*видео интерактивно, вы можете его вращать</span>
-      {displayedVideos !== videos.length
-      &&
-      <button onClick={() => {setDisplayedVideos(displayedVideos + 1)}}>Показать ещё видео...</button>}
       {videos
         .slice(0, displayedVideos)
         .map(video => <Video video={video} key={video.name} />)
       }
+      {displayedVideos !== videos.length
+      &&
+      <button className="btn" onClick={() => {setDisplayedVideos(displayedVideos + 1)}}>Показать ещё видео...</button>}
     </>
   )
 }

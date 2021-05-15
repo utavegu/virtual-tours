@@ -42,11 +42,12 @@ export default function Work({ match }) {
     <div>
       <h1>{project.name}</h1>
 
-      <Link to={`/`}>Вернуться в галерею</Link>
+      <Link to={`/`} className="btn">Вернуться в галерею</Link>
 
       <p>{project.description}</p>
 
       <ul>
+        {/* В отдельный компонент */}
         {project.tours.length > 0 && <li>
           <input
             type="radio"
