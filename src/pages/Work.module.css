@@ -1,0 +1,12 @@
+@media (min-width: 1000px) {
+  .work_page {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+  }
+
+  .controls {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+}

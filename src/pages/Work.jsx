@@ -39,53 +39,53 @@ export default function Work({ match }) {
   }
 
   return (
-    <div>
+    <section className={s.work_page}>
       <h1>{project.name}</h1>
-
-      <Link to={`/`} className="btn">Вернуться в галерею</Link>
 
       <p>{project.description}</p>
 
-      <ul>
-        {/* В отдельный компонент */}
-        {project.tours.length > 0 && <li>
-          <input
-            type="radio"
-            name="displayedContent"
-            id="tours"
-            checked={displayedContent === "tours"}
-            onChange={handleChangeInput}
-          />
-          <label htmlFor="tours">Виртуальные туры</label>
-        </li>}
-        {project.videos.length > 0 && <li>
-          <input
-            type="radio"
-            name="displayedContent"
-            id="videos"
-            checked={displayedContent === "videos"}
-            onChange={handleChangeInput}
-          />
-          <label htmlFor="videos">3D-видео</label>
-        </li>}
-        {/*
-        ГАЛЕРЕЯ ФОТО
-        {project.videos.length > 0 && <li>
-          <input
-            type="radio"
-            name="displayedContent"
-            id="videos"
-            checked={displayedContent === "videos"}
-            onChange={handleChangeInput}
-          />
-          <label htmlFor="videos">3D-видео</label>
-        </li>}
-        */}
+      <div className={s.controls}>
+        <Link to={`/`} className="btn">Вернуться в галерею</Link>
+        <ul>
+          {/* В отдельный компонент */}
+          {project.tours.length > 0 && <li>
+            <input
+              type="radio"
+              name="displayedContent"
+              id="tours"
+              checked={displayedContent === "tours"}
+              onChange={handleChangeInput}
+            />
+            <label htmlFor="tours">Виртуальные туры</label>
+          </li>}
+          {project.videos.length > 0 && <li>
+            <input
+              type="radio"
+              name="displayedContent"
+              id="videos"
+              checked={displayedContent === "videos"}
+              onChange={handleChangeInput}
+            />
+            <label htmlFor="videos">3D-видео</label>
+          </li>}
+          {/*
+          ГАЛЕРЕЯ ФОТО
+          {project.videos.length > 0 && <li>
+            <input
+              type="radio"
+              name="displayedContent"
+              id="videos"
+              checked={displayedContent === "videos"}
+              onChange={handleChangeInput}
+            />
+            <label htmlFor="videos">3D-видео</label>
+          </li>}
+          */}
+        </ul>
+      </div>
 
-      </ul>
-      
       {changeDisplay()}
       
-    </div>
+    </section>
   )
 }

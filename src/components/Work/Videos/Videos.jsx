@@ -9,16 +9,30 @@ function Videos({videos}) {
   // const WATCH_URL = 'https://www.youtube.com/watch?v=';
 
   return (
-    <>
-      <span>*видео интерактивно, вы можете его вращать</span>
+    <div>
+      {displayedVideos !== videos.length > 0
+      &&
+      <div className={s.controls}>
+        <button
+          className="btn"
+          onClick={() => {setDisplayedVideos(displayedVideos - 1)}}
+          disabled={displayedVideos === 1}
+        >
+          Предыдущий
+        </button>
+        <button
+          className="btn"
+          onClick={() => {setDisplayedVideos(displayedVideos + 1)}}
+          disabled={displayedVideos === videos.length}
+        >
+          Следующий
+        </button>
+      </div>}
       {videos
-        .slice(0, displayedVideos)
+        .slice(displayedVideos-1, displayedVideos)
         .map(video => <Video video={video} key={video.name} />)
       }
-      {displayedVideos !== videos.length
-      &&
-      <button className="btn" onClick={() => {setDisplayedVideos(displayedVideos + 1)}}>Показать ещё видео...</button>}
-    </>
+    </div>
   )
 }
 
