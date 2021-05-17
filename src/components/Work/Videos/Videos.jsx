@@ -10,6 +10,10 @@ function Videos({videos}) {
 
   return (
     <div>
+      {videos
+        .slice(displayedVideos-1, displayedVideos)
+        .map(video => <Video video={video} key={video.name} />)
+      }
       {displayedVideos !== videos.length > 0
       &&
       <div className={s.controls}>
@@ -28,10 +32,6 @@ function Videos({videos}) {
           Следующий
         </button>
       </div>}
-      {videos
-        .slice(displayedVideos-1, displayedVideos)
-        .map(video => <Video video={video} key={video.name} />)
-      }
     </div>
   )
 }

@@ -42,31 +42,47 @@ export default function Work({ match }) {
     <section className={s.work_page}>
       <h1>{project.name}</h1>
 
-      <p>{project.description}</p>
+      <div className={s.container}>
 
-      <div className={s.controls}>
-        <Link to={`/`} className="btn">Вернуться в галерею</Link>
+        <p className={s.description}>{project.description}</p>
+
+        
+
+        {changeDisplay()}
+
+        <Link to={`/`} className={s.back} title="Вернуться в галерею"> 
+          <span className="visually-hidden">Вернуться в галерею</span>
+        </Link>
+          
         <ul>
           {/* В отдельный компонент */}
           {project.tours.length > 0 && <li>
-            <input
-              type="radio"
-              name="displayedContent"
-              id="tours"
-              checked={displayedContent === "tours"}
-              onChange={handleChangeInput}
-            />
-            <label htmlFor="tours">Виртуальные туры</label>
+            <label>
+              <input
+                className="visually-hidden"
+                type="radio"
+                name="displayedContent"
+                id="tours"
+                checked={displayedContent === "tours"}
+                onChange={handleChangeInput}
+              />
+              <span className={`${s.custom_radio} ${s.tour}`} title="Виртуальные туры"></span>
+              <span className="visually-hidden">Виртуальные туры</span>
+            </label>
           </li>}
           {project.videos.length > 0 && <li>
-            <input
-              type="radio"
-              name="displayedContent"
-              id="videos"
-              checked={displayedContent === "videos"}
-              onChange={handleChangeInput}
-            />
-            <label htmlFor="videos">3D-видео</label>
+            <label>
+              <input
+                className="visually-hidden"
+                type="radio"
+                name="displayedContent"
+                id="videos"
+                checked={displayedContent === "videos"}
+                onChange={handleChangeInput}
+              />
+              <span className={`${s.custom_radio} ${s.video}`} title="3D-видео"></span>
+              <span className="visually-hidden">3D-видео</span>
+            </label>
           </li>}
           {/*
           ГАЛЕРЕЯ ФОТО
@@ -82,9 +98,8 @@ export default function Work({ match }) {
           </li>}
           */}
         </ul>
+          
       </div>
-
-      {changeDisplay()}
       
     </section>
   )

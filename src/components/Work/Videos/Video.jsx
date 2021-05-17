@@ -7,7 +7,7 @@ function Video({video}) {
   // const WATCH_URL = 'https://www.youtube.com/watch?v=';
   return (
     <>
-      <h2>{video.name}</h2>
+      {/* <h2>{video.name}</h2> */}
       <div className="responsive_container">
         <iframe
           width="560"

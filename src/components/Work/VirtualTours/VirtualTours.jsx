@@ -6,11 +6,12 @@ import Tour from './Tour';
 function VirtualTours({tours}) {
   const [displayedTours, setDisplayedTours] = useState(1);
 
-  console.log(displayedTours);
-  console.log(tours.length);
-
   return (
     <div>
+      {tours
+        .slice(displayedTours-1, displayedTours)
+        .map(tour => <Tour tour={tour} key={tour.name} />)
+      }
       {displayedTours !== tours.length > 0
       &&
       <div className={s.controls}>
@@ -29,10 +30,6 @@ function VirtualTours({tours}) {
           Следующий
         </button>
       </div>}
-      {tours
-        .slice(displayedTours-1, displayedTours)
-        .map(tour => <Tour tour={tour} key={tour.name} />)
-      }
     </div>
   )
 }
