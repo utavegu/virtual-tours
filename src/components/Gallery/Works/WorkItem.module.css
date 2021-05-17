@@ -2,9 +2,13 @@
   margin: 0 auto;
   margin-bottom: 15px;
   position: relative;
+  filter: grayscale(100%);
+  transition: 1s;
+}
 
-  HEIGHT: 150px; /*УДАЛИТЬ!!!!!*/
-  BORDER: 1px solid red; /*УДАЛИТЬ!!!!!*/
+.work_item:hover {
+  filter: none;
+  transition: 0.5s;
 }
 
 .work_item h3 {
@@ -16,17 +20,15 @@
   transform: translate(-50%, -50%);
   font-size: 1.5em;
   text-align: center;
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+  text-transform: uppercase;
 }
 
 .work_item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  filter: grayscale(50%); /*КОГДА КОНТЕНТ ПОДКЛЮЧИШЬ, ПОТЕСТИ НОРМАЛЬНО*/
-}
-
-.work_item img:hover {
-  filter: none;
 }
 
 .work_item p {

@@ -6,7 +6,7 @@ import Tag from './Tag'
 function TagsList({tags, onGetTags: handleGetTags}) {
   const initialTags = new Object();
   tags.forEach(element => {
-    initialTags[element] = true;
+    initialTags[element] = false;
   });
 
   const [tagsCloud, setTagsCloud] = useState(initialTags);

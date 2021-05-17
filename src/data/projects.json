@@ -43,10 +43,11 @@
     "photos": [],
     "tags": ["природа", "2020"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/krylov_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/krylov_1400.png"
+    },
+    "shownTitle": ""
   },
 
   {
@@ -64,10 +65,11 @@
     "photos": [],
     "tags": ["корпорации", "2021"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/yandex_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/yandex_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -85,10 +87,11 @@
     "photos": [],
     "tags": ["производство", "2020"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/nikel_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/nikel_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -106,10 +109,11 @@
     "photos": [],
     "tags": ["досуг", "2019"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/dyagilev_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/dyagilev_1400.png"
+    },
+    "shownTitle": ""
   },
 
   {
@@ -127,10 +131,11 @@
     "photos": [],
     "tags": ["производство", "2020"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/fertoing_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/fertoing_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -148,10 +153,11 @@
     "photos": [],
     "tags": ["досуг", "2019"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/book_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/book_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -169,10 +175,11 @@
     "photos": [],
     "tags": ["природа", "досуг", "2018"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/cottage_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/cottage_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -190,10 +197,11 @@
     "photos": [],
     "tags": ["производство", "2014"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/g8_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/g8_1400.png"
+    },
+    "shownTitle": ""
   },
 
   {
@@ -211,10 +219,11 @@
     "photos": [],
     "tags": ["вечеринка", "2018"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/livepano_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/livepano_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -232,10 +241,11 @@
     "photos": [],
     "tags": ["вечеринка", "2018"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/party_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/party_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -253,10 +263,11 @@
     "photos": [],
     "tags": ["производство", "2019"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/poliplastika_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/poliplastika_1400.png"
+    },
+    "shownTitle": "yes"
   },
 
   {
@@ -274,10 +285,11 @@
     "photos": [],
     "tags": ["досуг", "2019"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/lyft_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/lyft_1400.png"
+    },
+    "shownTitle": ""
   },
 
   {
@@ -295,10 +307,11 @@
     "photos": [],
     "tags": ["природа", "2020"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/baikal_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/baikal_1400.png"
+    },
+    "shownTitle": ""
   },
 
   {
@@ -316,10 +329,11 @@
     "photos": [],
     "tags": ["вечеринка", "2018"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/outlet_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/outlet_1400.png"
+    },
+    "shownTitle": ""
   },
 
   {
@@ -337,10 +351,11 @@
     "photos": [],
     "tags": ["вечеринка", "2018"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/youth_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/youth_1400.png"
+    },
+    "shownTitle": ""
   },
 
   {
@@ -358,10 +373,11 @@
     "photos": [],
     "tags": ["досуг", "2018"],
     "preview": {
-      "mobile": "",
-      "tablet": "",
-      "desktop": ""
-    }
+      "mobile": "./img/parachute_425.png",
+      "tablet": "./img/",
+      "desktop": "./img/parachute_1400.png"
+    },
+    "shownTitle": "yes"
   }
 
 ]
