@@ -9,9 +9,11 @@ function WorkItem({project}) {
       <Link to={`/${project.alias}`}>
         <h3>{project.shownTitle && project.name}</h3>
         <picture>
+          {/*
           <source media="(min-width: 1400px)" srcSet={project.preview.desktop} />
           <source media="(min-width: 768px)" srcSet={project.preview.desktop} />
           <source media="(min-width: 425px) and (max-width: 768px)" srcSet={project.preview.desktop} />
+          */}
           <img src={project.preview.mobile}/>
         </picture>
       </Link>

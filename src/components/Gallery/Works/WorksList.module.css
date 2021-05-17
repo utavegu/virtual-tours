@@ -1,3 +1,7 @@
 .work_list {
   list-style: none;
+  /*Экспериментирую*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

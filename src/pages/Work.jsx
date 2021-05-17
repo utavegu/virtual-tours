@@ -27,6 +27,7 @@ export default function Work({ match }) {
     setDisplayedContent(target.id);
   }
 
+  /* Пока походит на нарушение принципа DRY, так как компоненты аналогичны. Но это может измениться, потому пока оставлю так */
   const changeDisplay = () => {
     switch (displayedContent) {
       case "tours":
@@ -41,19 +42,12 @@ export default function Work({ match }) {
   return (
     <section className={s.work_page}>
       <h1>{project.name}</h1>
-
       <div className={s.container}>
-
         <p className={s.description}>{project.description}</p>
-
-        
-
         {changeDisplay()}
-
         <Link to={`/`} className={s.back} title="Вернуться в галерею"> 
           <span className="visually-hidden">Вернуться в галерею</span>
         </Link>
-          
         <ul>
           {/* В отдельный компонент */}
           {project.tours.length > 0 && <li>
@@ -98,9 +92,7 @@ export default function Work({ match }) {
           </li>}
           */}
         </ul>
-          
       </div>
-      
     </section>
   )
 }

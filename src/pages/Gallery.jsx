@@ -40,8 +40,8 @@ export default function Gallery() {
         Почту иконкой, телефон цифрами.
       </header>
       <main>
-        <TagsList tags={getUniqueTags()} onGetTags={handleGetTags} />
         <Search queryString={searchQuery} setSearchQuery={setSearchQuery} />
+        <TagsList tags={getUniqueTags()} onGetTags={handleGetTags} />
         <WorksList projects={foundProjects} />
       </main>
     </>
