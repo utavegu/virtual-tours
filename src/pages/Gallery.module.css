@@ -1,0 +1,41 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+}
+
+.contacts {
+  margin: 3px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contacts a {
+  position: relative;
+  margin: 5px;
+  padding-right: 30px;
+}
+
+.contacts a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mail::after  {
+  background-image: url(../img/email_white_48dp.svg);
+}
+
+.phone::after {
+  background-image: url(../img/phone_white_24dp.svg);
+}

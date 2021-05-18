@@ -1,17 +1,21 @@
 .tag_item span {
   padding: 3px;
   cursor: pointer;
-  color: #555;
-}
-
-.tag_item span:hover {
+  /* color: #555; */
   color: #888;
 }
 
+.tag_item span:hover {
+  /* color: #888; */
+  color: #555;
+}
+
 .tag_item input:checked + span {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
 }
 
 .tag_item input:checked + span:hover {
-  color: #bbb;
+  /* color: #bbb; */
+  color: #333;
 }

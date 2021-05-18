@@ -36,12 +36,18 @@ export default function Gallery() {
     <>
       <header className={s.main_header}>
         <h1>Виртуальные туры и видео 360</h1>
-        <p><i>От съёмки до готового результата.</i></p>
-        Почту иконкой, телефон цифрами.
+        <p><i>От съёмки до готового результата</i></p>
+        <address className={s.contacts}>
+          <a className={s.mail} href="mailto:photo.largo@gmail.com">photo.largo@gmail.com</a>
+          <a className={s.phone} href="tel:+7-985-836-69-16">+7 985 836 69 16</a>
+        </address>
+
       </header>
       <main>
-        <Search queryString={searchQuery} setSearchQuery={setSearchQuery} />
-        <TagsList tags={getUniqueTags()} onGetTags={handleGetTags} />
+        <div className={s.sticky}>
+          <TagsList tags={getUniqueTags()} onGetTags={handleGetTags} />
+          <Search queryString={searchQuery} setSearchQuery={setSearchQuery} />
+        </div>
         <WorksList projects={foundProjects} />
       </main>
     </>

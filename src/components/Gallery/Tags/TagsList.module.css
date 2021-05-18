@@ -1,11 +1,12 @@
 .tags_cloud {
   list-style: none;
+  margin: 0;
   padding: 5px;
-  margin: 5px;
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;
   justify-content: center;
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {

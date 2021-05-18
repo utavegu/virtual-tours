@@ -33,9 +33,10 @@ body {
   background-color: black;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1275px) {
   body {
-    max-width: 1440px;
+    max-width: 1275px;
+    /* max-width: 1440px; */
   }
 }
 
