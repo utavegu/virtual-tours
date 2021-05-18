@@ -4,7 +4,7 @@ import s from './TagsList.module.css';
 import Tag from './Tag'
 
 function TagsList({tags, onGetTags: handleGetTags}) {
-  const initialTags = new Object();
+  const initialTags = {};
   tags.forEach(element => {
     initialTags[element] = false;
   });

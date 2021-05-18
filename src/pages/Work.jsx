@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import s from './Work.module.css';
+import React from 'react';
+// import s from './Work.module.css';
 import projectsData from '../data/projects.json';
 import WorkContent from '../components/Work/WorkContent';
 import Page404 from './Page404'

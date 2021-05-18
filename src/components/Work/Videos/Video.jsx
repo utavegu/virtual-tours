@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from './Video.module.css';
+// import s from './Video.module.css';
 
 function Video({video}) {
   const EMBEDDED_URL = 'https://www.youtube.com/embed/';
@@ -26,7 +26,7 @@ function Video({video}) {
 }
 
 Video.propTypes = {
-
+  video: PropTypes.object,
 }
 
 export default Video

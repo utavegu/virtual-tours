@@ -85,7 +85,7 @@ function WorkContent({project}) {
 }
 
 WorkContent.propTypes = {
-
+  project: PropTypes.object,
 }
 
 export default WorkContent

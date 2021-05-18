@@ -12,7 +12,7 @@ function VirtualTours({tours}) {
         .slice(displayedTours-1, displayedTours)
         .map(tour => <Tour tour={tour} key={tour.name} />)
       }
-      {displayedTours !== tours.length > 0
+      {displayedTours !== (tours.length > 0)
       &&
       <div className={s.controls}>
         <button
@@ -35,7 +35,7 @@ function VirtualTours({tours}) {
 }
 
 VirtualTours.propTypes = {
-
+  tours: PropTypes.arrayOf(PropTypes.object),
 }
 
 export default VirtualTours

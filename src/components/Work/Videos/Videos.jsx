@@ -5,8 +5,6 @@ import Video from './Video';
 
 function Videos({videos}) {
   const [displayedVideos, setDisplayedVideos] = useState(1);
-  const EMBEDDED_URL = 'https://www.youtube.com/embed/';
-  // const WATCH_URL = 'https://www.youtube.com/watch?v=';
 
   return (
     <div>
@@ -14,7 +12,7 @@ function Videos({videos}) {
         .slice(displayedVideos-1, displayedVideos)
         .map(video => <Video video={video} key={video.name} />)
       }
-      {displayedVideos !== videos.length > 0
+      {displayedVideos !== (videos.length > 0)
       &&
       <div className={s.controls}>
         <button
@@ -37,7 +35,7 @@ function Videos({videos}) {
 }
 
 Videos.propTypes = {
-
+  videos: PropTypes.arrayOf(PropTypes.object),
 }
 
 export default Videos

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from './Tour.module.css';
+// import s from './Tour.module.css';
 
 function Tour({tour}) {
   return (
@@ -24,7 +24,7 @@ function Tour({tour}) {
 }
 
 Tour.propTypes = {
-
+  tour: PropTypes.object,
 }
 
 export default Tour

@@ -14,7 +14,7 @@ function WorkItem({project}) {
           <source media="(min-width: 768px)" srcSet={project.preview.desktop} />
           <source media="(min-width: 425px) and (max-width: 768px)" srcSet={project.preview.desktop} />
           */}
-          <img src={project.preview.mobile}/>
+          <img src={project.preview.mobile} alt={project.name}/>
         </picture>
       </Link>
       <p>{project.tags.map(tag => `#${tag} `)}</p>
