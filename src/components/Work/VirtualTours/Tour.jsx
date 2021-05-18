@@ -5,7 +5,7 @@ import s from './Tour.module.css';
 function Tour({tour}) {
   return (
     <>
-      <h2 className={s.heading}>{tour.name}</h2>
+      {/* <h2 className={s.heading}>{tour.name}</h2> */}
       <div className="responsive_container">
         <iframe
           width="900"

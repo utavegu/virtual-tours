@@ -49,7 +49,27 @@
     },
     "shownTitle": ""
   },
-
+  {
+    "id": 1,
+    "name": "Mail.ru group",
+    "alias": "mail",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi sit cumque optio, sapiente natus unde, nulla aperiam modi, minus debitis veniam laboriosam vel quas fuga consectetur perferendis? Voluptates, quod!",
+    "tours": [
+      {
+        "name": "Прогулка по зданию Мэйл.ру груп",
+        "url": "http://test.photo-largo.lclients.ru/mailru/"
+      }
+    ],
+    "videos": [],
+    "photos": [],
+    "tags": ["корпорации", "2021"],
+    "preview": {
+      "mobile": "./img/mail_425.png",
+      "tablet": "",
+      "desktop": "./img/mail_1400.png"
+    },
+    "shownTitle": "yes"
+  },
   {
     "id": 2,
     "name": "Яндекс-Такси: Боритесь за золото",
@@ -63,7 +83,7 @@
       }
     ],
     "photos": [],
-    "tags": ["корпорации", "2021"],
+    "tags": ["корпорации", "2017"],
     "preview": {
       "mobile": "./img/yandex_425.png",
       "tablet": "./img/",
@@ -129,7 +149,7 @@
     ],
     "videos": [],
     "photos": [],
-    "tags": ["производство", "2020"],
+    "tags": ["производство", "2017"],
     "preview": {
       "mobile": "./img/fertoing_425.png",
       "tablet": "./img/",
@@ -239,7 +259,7 @@
       }
     ],
     "photos": [],
-    "tags": ["вечеринка", "2018"],
+    "tags": ["вечеринка", "2017"],
     "preview": {
       "mobile": "./img/party_425.png",
       "tablet": "./img/",
@@ -305,7 +325,7 @@
       }
     ],
     "photos": [],
-    "tags": ["природа", "2020"],
+    "tags": ["природа", "2019"],
     "preview": {
       "mobile": "./img/baikal_425.png",
       "tablet": "./img/",
@@ -327,7 +347,7 @@
       }
     ],
     "photos": [],
-    "tags": ["вечеринка", "2018"],
+    "tags": ["вечеринка", "2016"],
     "preview": {
       "mobile": "./img/outlet_425.png",
       "tablet": "./img/",
@@ -349,7 +369,7 @@
       }
     ],
     "photos": [],
-    "tags": ["вечеринка", "2018"],
+    "tags": ["вечеринка", "2016"],
     "preview": {
       "mobile": "./img/youth_425.png",
       "tablet": "./img/",
