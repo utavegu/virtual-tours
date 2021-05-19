@@ -7,7 +7,8 @@
     "tours": [
       {
         "name": "Сестрорецкое болото",
-        "url": "http://test.photo-largo.lclients.ru/boloto_master_2018_04_26/" 
+        "url": "http://test.photo-largo.lclients.ru/boloto_master_2018_04_26/",
+        "poster": ""
       },
       {
         "name": "Дудергофские высоты",
@@ -43,9 +44,9 @@
     "photos": [],
     "tags": ["природа", "2020"],
     "preview": {
-      "mobile": "./img/krylov_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/krylov_1400.png"
+      "mobile": "./img/previews/krylov_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/krylov_1400.png"
     },
     "shownTitle": ""
   },
@@ -64,9 +65,9 @@
     "photos": [],
     "tags": ["корпорации", "2021"],
     "preview": {
-      "mobile": "./img/mail_425.png",
+      "mobile": "./img/previews/mail_425.png",
       "tablet": "",
-      "desktop": "./img/mail_1400.png"
+      "desktop": "./img/previews/mail_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -85,9 +86,9 @@
     "photos": [],
     "tags": ["корпорации", "2017"],
     "preview": {
-      "mobile": "./img/yandex_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/yandex_1400.png"
+      "mobile": "./img/previews/yandex_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/yandex_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -107,9 +108,9 @@
     "photos": [],
     "tags": ["производство", "2020"],
     "preview": {
-      "mobile": "./img/nikel_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/nikel_1400.png"
+      "mobile": "./img/previews/nikel_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/nikel_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -129,9 +130,9 @@
     "photos": [],
     "tags": ["досуг", "2019"],
     "preview": {
-      "mobile": "./img/dyagilev_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/dyagilev_1400.png"
+      "mobile": "./img/previews/dyagilev_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/dyagilev_1400.png"
     },
     "shownTitle": ""
   },
@@ -151,9 +152,9 @@
     "photos": [],
     "tags": ["производство", "2017"],
     "preview": {
-      "mobile": "./img/fertoing_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/fertoing_1400.png"
+      "mobile": "./img/previews/fertoing_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/fertoing_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -173,9 +174,9 @@
     "photos": [],
     "tags": ["досуг", "2019"],
     "preview": {
-      "mobile": "./img/book_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/book_1400.png"
+      "mobile": "./img/previews/book_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/book_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -195,9 +196,9 @@
     "photos": [],
     "tags": ["природа", "досуг", "2018"],
     "preview": {
-      "mobile": "./img/cottage_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/cottage_1400.png"
+      "mobile": "./img/previews/cottage_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/cottage_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -217,9 +218,9 @@
     "photos": [],
     "tags": ["производство", "2014"],
     "preview": {
-      "mobile": "./img/g8_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/g8_1400.png"
+      "mobile": "./img/previews/g8_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/g8_1400.png"
     },
     "shownTitle": ""
   },
@@ -239,9 +240,9 @@
     "photos": [],
     "tags": ["вечеринка", "2018"],
     "preview": {
-      "mobile": "./img/livepano_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/livepano_1400.png"
+      "mobile": "./img/previews/livepano_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/livepano_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -261,9 +262,9 @@
     "photos": [],
     "tags": ["вечеринка", "2017"],
     "preview": {
-      "mobile": "./img/party_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/party_1400.png"
+      "mobile": "./img/previews/party_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/party_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -283,9 +284,9 @@
     "photos": [],
     "tags": ["производство", "2019"],
     "preview": {
-      "mobile": "./img/poliplastika_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/poliplastika_1400.png"
+      "mobile": "./img/previews/poliplastika_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/poliplastika_1400.png"
     },
     "shownTitle": "yes"
   },
@@ -305,9 +306,9 @@
     "photos": [],
     "tags": ["досуг", "2019"],
     "preview": {
-      "mobile": "./img/lyft_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/lyft_1400.png"
+      "mobile": "./img/previews/lyft_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/lyft_1400.png"
     },
     "shownTitle": ""
   },
@@ -327,9 +328,9 @@
     "photos": [],
     "tags": ["природа", "2019"],
     "preview": {
-      "mobile": "./img/baikal_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/baikal_1400.png"
+      "mobile": "./img/previews/baikal_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/baikal_1400.png"
     },
     "shownTitle": ""
   },
@@ -349,9 +350,9 @@
     "photos": [],
     "tags": ["вечеринка", "2016"],
     "preview": {
-      "mobile": "./img/outlet_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/outlet_1400.png"
+      "mobile": "./img/previews/outlet_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/outlet_1400.png"
     },
     "shownTitle": ""
   },
@@ -371,9 +372,9 @@
     "photos": [],
     "tags": ["вечеринка", "2016"],
     "preview": {
-      "mobile": "./img/youth_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/youth_1400.png"
+      "mobile": "./img/previews/youth_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/youth_1400.png"
     },
     "shownTitle": ""
   },
@@ -393,9 +394,9 @@
     "photos": [],
     "tags": ["досуг", "2017"],
     "preview": {
-      "mobile": "./img/parachute_425.png",
-      "tablet": "./img/",
-      "desktop": "./img/parachute_1400.png"
+      "mobile": "./img/previews/parachute_425.png",
+      "tablet": "",
+      "desktop": "./img/previews/parachute_1400.png"
     },
     "shownTitle": "yes"
   }

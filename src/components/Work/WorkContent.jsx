@@ -6,7 +6,8 @@ import Videos from './Videos/Videos';
 import VirtualTours from './VirtualTours/VirtualTours';
 
 function WorkContent({project}) {
-  const initialContent = project.tours.length > 0 ? "tours" : "videos"
+  // const initialContent = project.tours.length > 0 ? "tours" : "videos"
+  const initialContent = project.videos.length > 0 ? "videos" : "tours"
 
   const [displayedContent, setDisplayedContent] = useState(initialContent);
 
@@ -37,20 +38,7 @@ function WorkContent({project}) {
         </Link>
         <ul>
           {/* В отдельный компонент */}
-          {project.tours.length > 0 && <li>
-            <label>
-              <input
-                className="visually-hidden"
-                type="radio"
-                name="displayedContent"
-                id="tours"
-                checked={displayedContent === "tours"}
-                onChange={handleChangeInput}
-              />
-              <span className={`${s.custom_radio} ${s.tour}`} title="Виртуальные туры"></span>
-              <span className="visually-hidden">Виртуальные туры</span>
-            </label>
-          </li>}
+
           {project.videos.length > 0 && <li>
             <label>
               <input
@@ -65,6 +53,22 @@ function WorkContent({project}) {
               <span className="visually-hidden">3D-видео</span>
             </label>
           </li>}
+
+          {project.tours.length > 0 && <li>
+            <label>
+              <input
+                className="visually-hidden"
+                type="radio"
+                name="displayedContent"
+                id="tours"
+                checked={displayedContent === "tours"}
+                onChange={handleChangeInput}
+              />
+              <span className={`${s.custom_radio} ${s.tour}`} title="Виртуальные туры"></span>
+              <span className="visually-hidden">Виртуальные туры</span>
+            </label>
+          </li>}
+
           {/*
           ГАЛЕРЕЯ ФОТО
           {project.videos.length > 0 && <li>

@@ -2,15 +2,8 @@
   margin: 0;
   /* margin-bottom: 15px; */
   position: relative;
-  filter: grayscale(100%);
-  transition: 1s;
   /*Экспериментирую*/
   width: 425px;
-}
-
-.work_item:hover {
-  filter: none;
-  transition: 0.5s;
 }
 
 .work_item h3 {
@@ -42,6 +35,19 @@
   padding: 3%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media (min-width: 960px) {
+  .work_item {
+    filter: grayscale(100%);
+    transition: 1s;
+  }
+
+  .work_item:hover {
+    filter: none;
+    transition: 0.5s;
+  }
+}
+
 /*  
 @media (min-width: 768px) {
   .work_item {

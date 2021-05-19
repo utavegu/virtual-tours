@@ -3,10 +3,15 @@ import PropTypes from 'prop-types';
 // import s from './Tour.module.css';
 
 function Tour({tour}) {
+  console.log(tour);
   return (
     <>
       {/* <h2 className={s.heading}>{tour.name}</h2> */}
       <div className="responsive_container">
+        <a href={tour.url}>
+          <img src="" alt={tour.name} />
+        </a>
+        {/*
         <iframe
           width="900"
           height="500"
@@ -18,6 +23,7 @@ function Tour({tour}) {
         >
           Обновите ваш браузер!
         </iframe>
+        */}
       </div>
     </>
   )
