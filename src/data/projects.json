@@ -8,27 +8,32 @@
       {
         "name": "Сестрорецкое болото",
         "url": "http://test.photo-largo.lclients.ru/boloto_master_2018_04_26/",
-        "poster": ""
+        "poster": "./img/posters/swamp_1400.png"
       },
       {
         "name": "Дудергофские высоты",
-        "url": "http://test.photo-largo.lclients.ru/dudergof_master_2019_01_24/" 
+        "url": "http://test.photo-largo.lclients.ru/dudergof_master_2019_01_24/",
+        "poster": "./img/posters/dudergof_1400.png"
       },
       {
         "name": "Комаровский берег",
-        "url": "http://test.photo-largo.lclients.ru/komarovo_master_2019_01_24/" 
+        "url": "http://test.photo-largo.lclients.ru/komarovo_master_2019_01_24/",
+        "poster": "./img/posters/komarovo_1400.png"
       },
       {
         "name": "Природные комплексы заказника",
-        "url": "http://test.photo-largo.lclients.ru/kotlin_master_2018_12_14/" 
+        "url": "http://test.photo-largo.lclients.ru/kotlin_master_2018_12_14/",
+        "poster": "./img/posters/kotlin_1400.png"
       },
       {
         "name": "Березовая аллея",
-        "url": "http://test.photo-largo.lclients.ru/sergievka_master_2019_01_23/" 
+        "url": "http://test.photo-largo.lclients.ru/sergievka_master_2019_01_23/",
+        "poster": "./img/posters/sergievka_1400.png"
       },
       {
         "name": "Участок болота",
-        "url": "http://test.photo-largo.lclients.ru/yuntolovskiy_master_2018_12_17/" 
+        "url": "http://test.photo-largo.lclients.ru/yuntolovskiy_master_2018_12_17/",
+        "poster": "./img/posters/yuntolovskiy_1400.png"
       }
     ],
     "videos": [
@@ -58,7 +63,8 @@
     "tours": [
       {
         "name": "Прогулка по зданию Мэйл.ру груп",
-        "url": "http://test.photo-largo.lclients.ru/mailru/"
+        "url": "http://test.photo-largo.lclients.ru/mailru/",
+        "poster": "./img/posters/mail_1400.png"
       }
     ],
     "videos": [],
@@ -123,7 +129,8 @@
     "tours": [
       {
         "name": "Виртуальный тур по выставке",
-        "url": "http://test.photo-largo.lclients.ru/dyagilev_final_music/" 
+        "url": "http://test.photo-largo.lclients.ru/dyagilev_final_music/",
+        "poster": "./img/posters/dyagilev_1400.png"
       }
     ],
     "videos": [],
@@ -145,7 +152,8 @@
     "tours": [
       {
         "name": "Экскурсия",
-        "url": "http://test.photo-largo.lclients.ru/fertoing_main/" 
+        "url": "http://test.photo-largo.lclients.ru/fertoing_main/",
+        "poster": "./img/posters/fertoing_1400.png"
       }
     ],
     "videos": [],
@@ -167,7 +175,8 @@
     "tours": [
       {
         "name": "3D-тур",
-        "url": "http://test.photo-largo.lclients.ru/book_v4/ " 
+        "url": "http://test.photo-largo.lclients.ru/book_v4/",
+        "poster": "./img/posters/book_1400.png" 
       }
     ],
     "videos": [],
@@ -189,7 +198,8 @@
     "tours": [
       {
         "name": "Аренда коттеджа посуточно",
-        "url": "http://test.photo-largo.lclients.ru/cottage/" 
+        "url": "http://test.photo-largo.lclients.ru/cottage/",
+        "poster": "./img/posters/cottage_1400.png"
       }
     ],
     "videos": [],
@@ -211,7 +221,8 @@
     "tours": [
       {
         "name": "Большая восьмерка",
-        "url": "http://test.photo-largo.lclients.ru/g8/" 
+        "url": "http://test.photo-largo.lclients.ru/g8/",
+        "poster": "./img/posters/g8_1400.png"
       }
     ],
     "videos": [],
@@ -233,7 +244,8 @@
     "tours": [
       {
         "name": "Фестиваль",
-        "url": "http://test.photo-largo.lclients.ru/livepano/" 
+        "url": "http://test.photo-largo.lclients.ru/livepano/",
+        "poster": "./img/posters/livepano_1400.png"
       }
     ],
     "videos": [],

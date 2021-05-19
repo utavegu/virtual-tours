@@ -36,7 +36,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1280px) {
   .work_item {
     filter: grayscale(100%);
     transition: 1s;
