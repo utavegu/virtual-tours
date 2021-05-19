@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/virtual-tours/static/css/main.c557c74e.chunk.css",
-    "main.js": "/virtual-tours/static/js/main.c34f614e.chunk.js",
-    "main.js.map": "/virtual-tours/static/js/main.c34f614e.chunk.js.map",
+    "main.css": "/virtual-tours/static/css/main.e0ed1509.chunk.css",
+    "main.js": "/virtual-tours/static/js/main.6481f46a.chunk.js",
+    "main.js.map": "/virtual-tours/static/js/main.6481f46a.chunk.js.map",
     "runtime-main.js": "/virtual-tours/static/js/runtime-main.360d8750.js",
     "runtime-main.js.map": "/virtual-tours/static/js/runtime-main.360d8750.js.map",
     "static/js/2.8f8d3df4.chunk.js": "/virtual-tours/static/js/2.8f8d3df4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.31dd777c.chunk.js": "/virtual-tours/static/js/3.31dd777c.chunk.js",
     "static/js/3.31dd777c.chunk.js.map": "/virtual-tours/static/js/3.31dd777c.chunk.js.map",
     "index.html": "/virtual-tours/index.html",
-    "static/css/main.c557c74e.chunk.css.map": "/virtual-tours/static/css/main.c557c74e.chunk.css.map",
+    "static/css/main.e0ed1509.chunk.css.map": "/virtual-tours/static/css/main.e0ed1509.chunk.css.map",
     "static/js/2.8f8d3df4.chunk.js.LICENSE.txt": "/virtual-tours/static/js/2.8f8d3df4.chunk.js.LICENSE.txt",
     "static/media/WorkContent.module.css": "/virtual-tours/static/media/arrow_back_white_48dp.48d85671.svg",
     "static/media/Gallery.module.css": "/virtual-tours/static/media/phone_white_24dp.5e3202df.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.360d8750.js",
     "static/js/2.8f8d3df4.chunk.js",
-    "static/css/main.c557c74e.chunk.css",
-    "static/js/main.c34f614e.chunk.js"
+    "static/css/main.e0ed1509.chunk.css",
+    "static/js/main.6481f46a.chunk.js"
   ]
 }
